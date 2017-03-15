@@ -1,0 +1,22 @@
+<!Doctype html>
+<html lang="es">
+<head>
+	<meta charset="UFT-8">
+<title> Uso de Formularios </title>
+<body>
+Formulario:contenedor de que sirve para encapsular meodos de entrada de datos del usuario. <br>
+<ol>
+<li>Capturar Datos</li>
+<li>Validar lo que se ingresa</li>
+<li>Enviar Proceso</li>
+<li>Reiniciar la Captura</li>
+</ol>
+<form action="procesa.html" method="post">
+   <input type="text" name="nombre" placeholder="Nombre" title="Nombre de la persona" required>
+   <input type="text" name="ncontrol" placeholder="Numero de control" title="Numero de control del estudiante" required>
+   <input type="text" name="promedio" placeholder="Promedio" title="Promedio hasta el semestre Anterior" required>
+   <input type="submit" value="enviar">
+   <input type="reset" value="borrar datos">
+</form>
+</body>
+</head>
