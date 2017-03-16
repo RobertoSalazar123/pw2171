@@ -1,17 +1,25 @@
-body{
+body
+{
 	border: 1px solid blue;
 	font-size: 16px; /*1em*/
 	margin: 0 auto;
 	max-width: 1024px;
 }
 
-form{
+form
+{
 	float: right;
 	margin-right: 20px;
 	margin-top: -40px;
 }
+form input [type="button"]
+{
+	background: green;
+	color: white;
+}
 
-header{
+header
+{
 	background: #B3D8EB;
 }
 
@@ -31,6 +39,41 @@ header nav ul li
 	margin-right: 20px;
 }
 
-#logo{
+#logo
+{
 	margin-top: -150px;
+}
+#seccion01 article input 
+{
+	border: 1px solid red;
+	text-align: center;
+}
+
+#seccion01 article img
+{
+	border: 5px solid rgba(250,250,250);
+	margin-top: 15px;
+	width: 98%;
+}
+#seccion02 article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 32.8%;
+}
+#seccion02 article input [type="submit"]
+{
+	background: white;
+	color: blue;
+	text-align: center;
+}
+.UnaSeccion
+{
+	font-size: 4.5em;
+	font-weight: bold; /*negritas*/
+}
+.Otraseccion
+{
+	font-size: 2.5em;
+	font-weight: bold;
 }
