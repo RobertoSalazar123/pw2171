@@ -1,0 +1,50 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*Centramos Body*/
+	max-width: 1078px;  /*Emrepresa-Cliente*/
+	min-width: 1078;
+}
+header input
+{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative; /*Static,absolute,fixed*/
+}
+header nav{
+	margin-left: 220px;
+	/*text-align: center;*/
+}
+#primerseccion{
+	height: 318px;
+}
+#primerseccion article{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+header nav ul li{
+	border-bottom: 1px solid gray; /*dashed*/
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+}
+#granthams{ /*Logo de la empresa*/
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#paint{
+	float: right;
+}
+#secc01art01{
+	width: 50%;
+}
+#secc01art01 img{
+	width: 100%;
+}
+#secc02art02{
+	width: 20%;
+}
