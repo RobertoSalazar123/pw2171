@@ -18,13 +18,10 @@ header nav ul li{
 	width: 400px;
 }
 #acomodo{
-	border: solid red;
-	width: 40%;
+	display: inline-block;
+	border:solid red;
+	width: 500px;
 }
 #post{
-	width: 30%;
-}
-
-#post,#acomodo{
-	display: inline-block;
+	width: 200px;
 }
