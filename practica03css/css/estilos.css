@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	font-size:  16px;
 	margin: 0 auto;
@@ -28,3 +29,32 @@ header nav ul li{
 #post,#acomodo{
 	display: inline-block;
 }
+=======
+body{
+	font-size:  16px;
+	margin: 0 auto;
+	max-width: 1078px;
+	min-width: 1078; 	
+}
+header nav{
+	background-color: orange;
+	border-radius: 5px;
+	padding: 1px 0px 1px 0px;
+}
+header nav ul li{
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+#slider{
+	width: 400px;
+}
+#acomodo article{
+	display: inline-block;
+	border:solid red;
+	width: 300px;
+}
+#post{
+	width: 200px;
+}
+>>>>>>> 140153e27ff7977ccd25da27507b749678eaa1ff
