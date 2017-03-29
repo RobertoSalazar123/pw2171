@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
 	font-size:  16px;
 	margin: 0 auto;
@@ -16,45 +15,28 @@ header nav ul li{
 	margin-right: 20px;
 }
 #slider{
-	width: 400px;
+	width: 60%;
 }
 #acomodo{
-	border: solid red;
 	width: 40%;
 }
 #post{
-	width: 30%;
+	border: 8px solid grey;
+	border-radius: 5px;
+	width: 16%;
+	text-align: center;
 }
 
 #post,#acomodo{
 	display: inline-block;
 }
-=======
-body{
-	font-size:  16px;
-	margin: 0 auto;
-	max-width: 1078px;
-	min-width: 1078; 	
-}
-header nav{
-	background-color: orange;
+#arthecho{
+	border: 8px solid #E1E6FA;
+	background-color: #E1E6FA;
+	width: 100%;
 	border-radius: 5px;
-	padding: 1px 0px 1px 0px;
 }
-header nav ul li{
-	color: white;
+#publicidad{
 	display: inline-block;
-	margin-right: 20px;
 }
-#slider{
-	width: 400px;
-}
-#acomodo article{
-	display: inline-block;
-	border:solid red;
-	width: 300px;
-}
-#post{
-	width: 200px;
-}
->>>>>>> 140153e27ff7977ccd25da27507b749678eaa1ff
+
