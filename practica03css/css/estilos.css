@@ -1,12 +1,11 @@
-<<<<<<< Updated upstream
 body{
 	font-size:  16px;
 	margin: 0 auto;
-	max-width: 1078px;
-	min-width: 1078; 	
+	max-width: 1024px;
+	min-width: 1024px; 	
 }
 header nav{
-	background-color: orange;
+	background-color: #DF7401;
 	border-radius: 5px;
 	padding: 1px 0px 1px 0px;
 }
@@ -16,15 +15,20 @@ header nav ul li{
 	margin-right: 20px;
 }
 #slider{
-	width: 60%;
+	width: 100%;
+}
+.Tpost{
+	font-size: 32px;
+	font-weight: bold;
+	color: grey;
 }
 #acomodo{
-	width: 40%;
+	width: 56%;
 }
 #post{
 	border: 8px solid grey;
 	border-radius: 5px;
-	width: 16%;
+	width: 40%;
 	text-align: center;
 }
 
@@ -40,38 +44,35 @@ header nav ul li{
 #publicidad{
 	display: inline-block;
 }
-
-=======
-body{
-	font-size:  16px;
-	margin: 0 auto;
-	max-width: 1024px;
-	min-width: 1024; 	
+#arbol{
+	width: 100%;
 }
-header nav{
-	background-color: orange;
-	border-radius: 5px;
-	padding: 1px 0px 1px 0px;
+#imgpubli{
+	margin-top: 20px;
 }
-header nav ul li{
+#publicidad,#buscador,.Categorias{
+	border-radius: 40px;
+	width: 80%;
+	text-align: center;
+	font-weight: bold;
 	color: white;
-	display: inline-block;
-	margin-right: 20px;
+	background-color:#DF7401; 
 }
-#slider{
+#acomodopubli{
+	
+	width: 100%;
+}
+
+#primerseccion{
 	width: 60%;
 }
-#acomodo article{
-	border:solid red;
-	width: 50%;
-	margin-left: 40px;
+#segundaseccion{
+	margin-top: 20px;
+	width: 38%;
+	margin-left: 10px;
 }
-#post{
-	width: 20%;
-}
-#post,#acomodo{
-		display: inline-block;
-
+#primerseccion,#segundaseccion{
+	display: inline-block;
+	vertical-align: top;
 
 }
->>>>>>> Stashed changes
