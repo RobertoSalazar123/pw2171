@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
 	font-size:  16px;
 	margin: 0 auto;
@@ -40,3 +41,37 @@ header nav ul li{
 	display: inline-block;
 }
 
+=======
+body{
+	font-size:  16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024; 	
+}
+header nav{
+	background-color: orange;
+	border-radius: 5px;
+	padding: 1px 0px 1px 0px;
+}
+header nav ul li{
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+#slider{
+	width: 60%;
+}
+#acomodo article{
+	border:solid red;
+	width: 50%;
+	margin-left: 40px;
+}
+#post{
+	width: 20%;
+}
+#post,#acomodo{
+		display: inline-block;
+
+
+}
+>>>>>>> Stashed changes
