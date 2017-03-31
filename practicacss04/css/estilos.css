@@ -1,0 +1,20 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	border-color: solid blue;
+}
+#logo{
+	width: 700px;
+
+}
+#primerseccion{
+	width: 16%;
+}
+#segundaseccoion{
+	width: 24%;
+}
+#primerseccion,#segundaseccion{
+	display: inline-block;
+}
