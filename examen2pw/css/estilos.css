@@ -1,0 +1,66 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1074px;
+	min-width: 1074px;
+}
+header nav{
+	padding: 1px 0px 1px 0px;
+}
+header nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 40px;
+
+}
+header img{
+	vertical-align: top;
+	text-align: right;
+
+}
+#logi{
+	vertical-align: top;
+	text-align: right;
+	margin-top: 1px;
+}
+/*#goto{
+	display: inline-block;
+	vertical-align: top;
+    text-align: right;
+
+}*/
+#y5{
+	width: 30%;
+}
+#bike{
+	width: 70%;
+}
+#buy{
+	width: 5%;
+margin-top: 50px;
+margin-right: 90px;
+}
+#video1,#video2{
+	width: 30%;
+}
+#logos{
+	width: 20%;
+
+}
+#loguitos{
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+#primerseccion{
+	font-size: 16px;
+	margin-top: 50px;
+	vertical-align: top;
+	width: 50%;
+}
+#segundaseccion{
+	width: 40%;
+}
+#primerseccion,#segundaseccion{
+	display: inline-block;
+}
