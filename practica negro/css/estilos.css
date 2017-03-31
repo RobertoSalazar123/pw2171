@@ -1,0 +1,41 @@
+
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	border-color: solid blue;
+}
+#logo{
+
+	height: 80px;
+	text-align: center;
+	padding-left: 420px;
+	padding-right: 420px;
+	background-color: blue;
+}
+#popo{
+	text-align: right;
+
+}
+#notificaciones,#mensajes,#ajustes{
+	height: 40px;
+}
+#primerseccion{
+	width: 15%;
+}
+#segundaseccion{
+	width: 50%;
+}
+#primeraseccion,#segundaseccion{
+	display: inline-block;
+	vertical-align: top;
+}
+#barras{
+	width: 15px;
+}
+
+#primeraseccion{
+	width: 30%;
+}
+
