@@ -9,13 +9,17 @@ let PantallaPrincipal;
 
 function muestraPantallaPrincipal(){
     PantallaPrincipal = new BrowserWindow({
-    	width:1024,
-    	height:768
+    	width:320,
+    	height:425
     })
     PantallaPrincipal.on('closed',function(){
     	PantallaPrincipal = null;
     })
-    PantallaPrincipal.loadURL('http://platzi.com')
+    PantallaPrincipal.loadURL(url.format({
+    	pathname: path.join(__dirname, 'index.html'),
+    	protocol: 'file',
+    	slashes: true
+    }))
     PantallaPrincipal.show()
 }
 //la aplicacion ejecuta este evento cuando el archivo main.js se carga en memoria
