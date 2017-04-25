@@ -1,0 +1,8 @@
+JSON = JavaScript Object Notation
+Conjunto[0],
+llave:valor,
+llave2:valor,
+llave3:{
+	llave4:valor,
+	llave5:valor,
+}
