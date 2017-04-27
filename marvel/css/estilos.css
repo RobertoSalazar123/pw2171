@@ -1,0 +1,54 @@
+body{
+	font-size: 16px;
+
+}
+#abajo{
+	background: orange;
+	color: black;
+	height: 718px;
+	padding-left: 15px;
+	padding-top: 15px;
+	width:  98.5%;
+}
+#abajo article{
+	display: inline-block;
+	vertical-align: top;
+}
+#abajoizquierda{
+	width:  18%;
+}
+#abajoderecha{
+	width: 68%;
+}
+#arriba{
+	background: blue;
+	color:white;
+	height: 50px;
+	padding: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+#arriba button{
+	background: green;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+}
+#arriba input{
+	border-radius: 5px
+	font-size1em;
+}
+#imgfoto{
+	border: 15px solid blue;
+	border-radius: 150px;
+	display: none;
+	width: 150px;
+}
+#txtnombre{
+	font-size: 4em;
+	font-family: "arial";
+	font-weight: bold;
+}
+
+
