@@ -1,6 +1,6 @@
 const rq = require('electron-require');
 const main = rq.remote('./main.js');
-const $ = require("jquery");}
+const $ = require("jquery");
 
 var buscarpersonaje = function(){
 	var personaje =$("#txtpersonaje").val();

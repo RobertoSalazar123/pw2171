@@ -20,7 +20,9 @@ function muestraPantallaPrincipal(){
     	protocol: 'file',
     	slashes: true
     }))
+    PantallaPrincipal.webContents.openDevTools()
     PantallaPrincipal.show()
 }
 //la aplicacion ejecuta este evento cuando el archivo main.js se carga en memoria
 app.on('ready',muestraPantallaPrincipal)
+
