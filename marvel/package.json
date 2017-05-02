@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "paquete": "electron-packager . marvelApp --overwrite --asar --icon=logo.icns", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
